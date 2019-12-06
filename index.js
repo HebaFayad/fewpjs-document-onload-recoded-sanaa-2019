@@ -4,7 +4,3 @@ document.addEventListener("DOMContentLoaded", function() {
   let text=document.getElementById("text");
   text.innerHTML="The DOM has loaded";
 });
- 
-console.log(
-  "This console.log() fires when index.js loads - before DOMContentLoaded is triggered"
-);
